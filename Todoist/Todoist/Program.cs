@@ -6,10 +6,14 @@ Console.WriteLine("[A]dd a TODO");
 Console.WriteLine("[Remove] a TODO");
 Console.WriteLine("[E]xit");
 
+// reads line from console and assigns it to variable
 string userChoice = Console.ReadLine();
-Console.WriteLine("User input: " + userChoice);
-userChoice = "ABC";
 
-var result = "abc" + "def" + "ghi";
+
+Console.WriteLine("User input: " + userChoice);
+
+bool isUserInputAbc = userChoice == "ABC";
+bool isUserInputNotAbc1 = userChoice != "ABC";
+bool isUserInputNotAbc2 = !(userChoice == "ABC");
 
 Console.ReadKey();

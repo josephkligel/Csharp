@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Todoist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8f694537593615d84e3541eb47d060af8ce84df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Todoist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Todoist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@ C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Todoist\obj\Debug\net8.0
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Todoist\obj\Debug\net8.0\Todoist.pdb
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Todoist\obj\Debug\net8.0\Todoist.genruntimeconfig.cache
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Todoist\obj\Debug\net8.0\ref\Todoist.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Todoist\obj\Debug\net8.0\Todoist.sourcelink.json
