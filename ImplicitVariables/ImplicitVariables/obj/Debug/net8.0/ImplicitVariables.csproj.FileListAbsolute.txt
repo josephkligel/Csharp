@@ -1,0 +1,14 @@
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\bin\Debug\net8.0\ImplicitVariables.exe
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\bin\Debug\net8.0\ImplicitVariables.deps.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\bin\Debug\net8.0\ImplicitVariables.runtimeconfig.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\bin\Debug\net8.0\ImplicitVariables.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\bin\Debug\net8.0\ImplicitVariables.pdb
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ImplicitVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ImplicitVariables.AssemblyInfoInputs.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ImplicitVariables.AssemblyInfo.cs
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ImplicitVariables.csproj.CoreCompileInputs.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ImplicitVariables.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\refint\ImplicitVariables.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ImplicitVariables.pdb
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ImplicitVariables.genruntimeconfig.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\ImplicitVariables\ImplicitVariables\obj\Debug\net8.0\ref\ImplicitVariables.dll
