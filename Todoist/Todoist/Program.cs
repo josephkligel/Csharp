@@ -10,15 +10,7 @@ Console.WriteLine("[E]xit");
 
 // reads line from console and assigns it to variable
 var userChoice = Console.ReadLine();
-bool isLong = IsLong(userChoice);
 
-bool IsLong(string input)
-{
-    return input.Length > 10;
-}
-
-var result = Add(10, 5);
-Console.WriteLine("10 + 5 = " + result);
 
 //if(userChoice == "S")
 //{
