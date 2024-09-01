@@ -1,15 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel;
 
-Console.WriteLine("Hello!");
-Console.WriteLine("What do you want to do?");
-Console.WriteLine("[S]ee all TODOs");
-Console.WriteLine("[A]dd a TODO");
-Console.WriteLine("[Remove] a TODO");
-Console.WriteLine("[E]xit");
+//Console.WriteLine("Hello!");
+//Console.WriteLine("What do you want to do?");
+//Console.WriteLine("[S]ee all TODOs");
+//Console.WriteLine("[A]dd a TODO");
+//Console.WriteLine("[Remove] a TODO");
+//Console.WriteLine("[E]xit");
 
-// reads line from console and assigns it to variable
-var userChoice = Console.ReadLine();
+//var userChoice = Console.ReadLine();
 
 
 //if(userChoice == "S")
@@ -34,9 +33,7 @@ var userChoice = Console.ReadLine();
 //    Console.WriteLine("Selected option: " + selectedOption);
 //}
 
-int Add(int a, int b)
-{
-    return a + b;
-}
+int a = 4, b = 2, c = 10;
+Console.WriteLine($"First is {a}, second is {b}, third is: {c}");
 
 Console.ReadKey();
