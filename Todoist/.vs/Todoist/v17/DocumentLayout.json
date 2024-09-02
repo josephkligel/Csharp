@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DE16A2C-2C07-4AFD-91E6-D2E558C67F03}|Todoist\\Todoist.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\todoist\\todoist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE16A2C-2C07-4AFD-91E6-D2E558C67F03}|Todoist\\Todoist.csproj|solutionrelative:todoist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A2244E8-B3EA-45C5-AB2A-7B5C1C4FCF46}|TODOList\\TODOList.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\todoist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A2244E8-B3EA-45C5-AB2A-7B5C1C4FCF46}|TODOList\\TODOList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B8C1A7-B8A5-407C-910E-EA17307E97C0}|Calculator\\Calculator.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\todoist\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B8C1A7-B8A5-407C-910E-EA17307E97C0}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DE16A2C-2C07-4AFD-91E6-D2E558C67F03}|Todoist\\Todoist.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\todoist\\todoist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE16A2C-2C07-4AFD-91E6-D2E558C67F03}|Todoist\\Todoist.csproj|solutionrelative:todoist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\Calculator\\Program.cs",
-              "RelativeDocumentMoniker": "Calculator\\Program.cs",
-              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\Calculator\\Program.cs",
-              "RelativeToolTip": "Calculator\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADgvxcAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Program.cs",
+              "RelativeDocumentMoniker": "TODOList\\Program.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Program.cs",
+              "RelativeToolTip": "TODOList\\Program.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T12:59:23.268Z",
+              "WhenOpened": "2024-09-02T15:29:20.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\Todoist\\Program.cs",
               "RelativeDocumentMoniker": "Todoist\\Program.cs",
               "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\Todoist\\Program.cs",
               "RelativeToolTip": "Todoist\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T12:16:40.794Z",
               "EditorCaption": ""
