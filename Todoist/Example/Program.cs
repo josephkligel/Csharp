@@ -9,7 +9,21 @@ medicalAppointment.OverwriteMonthAndDay(5, 1);
 
 medicalAppointment.MoveByMonthsAndDays(1, 2);
 
+var appointmentTwoWeeksFromNow = new MedicalAppointment("Bob Smith", 14);
+var appointmentOneWeekFromNow = new MedicalAppointment("Margaret Smith");
+
+var nameOnly = new MedicalAppointment("Name only");
+
 Console.ReadKey();
+
+class MedicalAppointmentPrinter
+{
+    public void Print(MedicalAppointment medicalAppointment)
+    {
+        Console.WriteLine(
+            "Appointment will take place on " + medicalAppointment.GetDate());
+    }
+}
 
 class MedicalAppointment
 {
@@ -18,26 +32,34 @@ class MedicalAppointment
 
     public MedicalAppointment(string patientname, DateTime date)
     {
-        _patientname = patientname;
-        _date = date;
+        this._patientname = patientname;
+        this._date = date;
     }
 
-    public MedicalAppointment(string patientname) :
-        this(patientname, 7)
+    //public MedicalAppointment(string patientname) :
+    //    this(patientname, 7)
+    //{
+    //}
+
+    public MedicalAppointment(string patientname)
     {
+        this._patientname = patientname;
     }
-    
-    public MedicalAppointment(string patientname, int daysFromNow)
+
+    public MedicalAppointment(
+        string patientname = "Unknown", int daysFromNow = 7)
     {
-        _patientname = patientname;
-        _date = DateTime.Now.AddDays(daysFromNow);
+        this._patientname = patientname;
+        this._date = DateTime.Now.AddDays(daysFromNow);
     }
 
-
+    public DateTime GetDate() => _date;
 
     public void Reschedule(DateTime date)
     {
         _date = date;
+        var printer = new MedicalAppointmentPrinter();
+        printer.Print(this);
     }
 
     public void OverwriteMonthAndDay(int month, int day)

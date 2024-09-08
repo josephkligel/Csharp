@@ -1,38 +1,39 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 var rectangle1 = new Rectangle(5, 10);
-var calculator = new ShapesMeasurementCalculator();
 
 Console.WriteLine("Width is " + rectangle1.Width);
 Console.WriteLine("Height is " + rectangle1.Height);
-Console.WriteLine("Area is " + calculator.CalculateArea(rectangle1));
-Console.WriteLine("Circumference is " + calculator.CalculateCircumference(rectangle1));
+Console.WriteLine("Area is " + rectangle1.CalculateArea());
+Console.WriteLine("Circumference is " + rectangle1.CalculateCircumference());
 
 Console.ReadKey();
 
 class Rectangle
 {
-    public int Width;
-    public int Height;
+    const int NumberOfSides = 4;
+    public readonly int Width;
+    public readonly int Height;
 
     public Rectangle(int width, int height)
     {
-        Width = width;
-        Height = height;
+        Width = GetLengthOrDefault(width, nameof(Width));
+        Height = GetLengthOrDefault(height, nameof(Height));
     }
 
-   
-}
-
-class ShapesMeasurementCalculator
-{
-    public int CalculateCircumference(Rectangle rectangle)
+    private int GetLengthOrDefault(int length, string name)
     {
-        return 2 * rectangle.Width + 2 * rectangle.Height;
-    }
+        const int defaultValueIfNonPositive = 1;
 
-    public int CalculateArea(Rectangle rectangle)
-    {
-        return rectangle.Width * rectangle.Height;
+        if (length <= 0)
+        {
+            Console.WriteLine($"{name} must be a postivive number.");
+            return defaultValueIfNonPositive;
+        }
+        return length;
+
     }
+    public int CalculateCircumference() => 2 * Width + 2 * Height;
+
+    public int CalculateArea() => Width * Height;
 }
