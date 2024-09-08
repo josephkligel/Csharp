@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CC4A62D-CE75-4B57-AFF9-FED6A638B28B}|Example\\Example.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\todoist\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC4A62D-CE75-4B57-AFF9-FED6A638B28B}|Example\\Example.csproj|solutionrelative:example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A2244E8-B3EA-45C5-AB2A-7B5C1C4FCF46}|TODOList\\TODOList.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\todoist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A2244E8-B3EA-45C5-AB2A-7B5C1C4FCF46}|TODOList\\TODOList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11D43FE1-B25A-4373-873F-D8E0F7635A2D}|FirstClass\\FirstClass.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\todoist\\firstclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11D43FE1-B25A-4373-873F-D8E0F7635A2D}|FirstClass\\FirstClass.csproj|solutionrelative:firstclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,11 +28,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\Example\\Program.cs",
+              "RelativeDocumentMoniker": "Example\\Program.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\Example\\Program.cs",
+              "RelativeToolTip": "Example\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:59:59.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Program.cs",
+              "RelativeDocumentMoniker": "TODOList\\Program.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Program.cs",
+              "RelativeToolTip": "TODOList\\Program.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAArwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:58:44.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\FirstClass\\Program.cs",
               "RelativeDocumentMoniker": "FirstClass\\Program.cs",
               "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\FirstClass\\Program.cs",
               "RelativeToolTip": "FirstClass\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T10:36:25.026Z",
               "EditorCaption": ""

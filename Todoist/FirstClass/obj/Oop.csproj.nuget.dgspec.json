@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Todolist.csproj": {}
+    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\FirstClass\\Oop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Todolist.csproj": {
+    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\FirstClass\\Oop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Todolist.csproj",
-        "projectName": "Todolist",
-        "projectPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\Todolist.csproj",
+        "projectUniqueName": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\FirstClass\\Oop.csproj",
+        "projectName": "Oop",
+        "projectPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\FirstClass\\Oop.csproj",
         "packagesPath": "C:\\Users\\c0021\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\TODOList\\obj\\",
+        "outputPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todoist\\FirstClass\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
