@@ -1,0 +1,14 @@
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Principles.exe
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Principles.deps.json
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Principles.runtimeconfig.json
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Principles.dll
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Principles.pdb
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Principles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Principles.AssemblyInfoInputs.cache
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Principles.AssemblyInfo.cs
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Principles.csproj.CoreCompileInputs.cache
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Principles.dll
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\refint\Principles.dll
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Principles.pdb
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Principles.genruntimeconfig.cache
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\ref\Principles.dll

@@ -1,0 +1,14 @@
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Names_SingleResponsibilityPrinciple.exe
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Names_SingleResponsibilityPrinciple.deps.json
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Names_SingleResponsibilityPrinciple.runtimeconfig.json
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Names_SingleResponsibilityPrinciple.dll
+C:\Users\jklig\source\repos\Principles\Principles\bin\Debug\net8.0\Names_SingleResponsibilityPrinciple.pdb
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Names_SingleResponsibilityPrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Names_SingleResponsibilityPrinciple.AssemblyInfoInputs.cache
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Names_SingleResponsibilityPrinciple.AssemblyInfo.cs
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Names_SingleResponsibilityPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Names_SingleResponsibilityPrinciple.dll
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\refint\Names_SingleResponsibilityPrinciple.dll
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Names_SingleResponsibilityPrinciple.pdb
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\Names_SingleResponsibilityPrinciple.genruntimeconfig.cache
+C:\Users\jklig\source\repos\Principles\Principles\obj\Debug\net8.0\ref\Names_SingleResponsibilityPrinciple.dll
