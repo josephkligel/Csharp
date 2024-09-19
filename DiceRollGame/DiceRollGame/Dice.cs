@@ -13,7 +13,7 @@ namespace DiceRollGame
         private int roll()
         {
             Random randInt = new Random();
-            return randInt.Next(1, 6);
+            return randInt.Next(1, 7);
         }
 
     }

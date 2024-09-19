@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+Console.ReadKey();
+
+class Dice
+{
+    private Random _random;
+
+    public Dice(Random random)
+    {
+        _random = random;
+    }
+
+    public int Roll()
+    {
+        return _random.Next(1, 7);
+    }
+}

@@ -1,0 +1,15 @@
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\bin\Debug\net8.0\Instructor_DiceRollGame.exe
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\bin\Debug\net8.0\Instructor_DiceRollGame.deps.json
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\bin\Debug\net8.0\Instructor_DiceRollGame.runtimeconfig.json
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\bin\Debug\net8.0\Instructor_DiceRollGame.dll
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\bin\Debug\net8.0\Instructor_DiceRollGame.pdb
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.AssemblyInfoInputs.cache
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.AssemblyInfo.cs
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.csproj.CoreCompileInputs.cache
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.sourcelink.json
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.dll
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\refint\Instructor_DiceRollGame.dll
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.pdb
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\Instructor_DiceRollGame.genruntimeconfig.cache
+C:\Users\jklig\OneDrive\Documents\GitHub\Csharp\Instructor_DiceRollGame\Instructor_DiceRollGame\obj\Debug\net8.0\ref\Instructor_DiceRollGame.dll

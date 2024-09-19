@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jklig\\source\\repos\\Instructor_DiceRollGame\\Instructor_DiceRollGame\\Instructor_DiceRollGame.csproj",
+      "projectUniqueName": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_DiceRollGame\\Instructor_DiceRollGame\\Instructor_DiceRollGame.csproj",
       "projectName": "Instructor_DiceRollGame",
-      "projectPath": "C:\\Users\\jklig\\source\\repos\\Instructor_DiceRollGame\\Instructor_DiceRollGame\\Instructor_DiceRollGame.csproj",
+      "projectPath": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_DiceRollGame\\Instructor_DiceRollGame\\Instructor_DiceRollGame.csproj",
       "packagesPath": "C:\\Users\\jklig\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jklig\\source\\repos\\Instructor_DiceRollGame\\Instructor_DiceRollGame\\obj\\",
+      "outputPath": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_DiceRollGame\\Instructor_DiceRollGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
