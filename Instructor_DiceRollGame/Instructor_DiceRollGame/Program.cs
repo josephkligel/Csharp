@@ -1,18 +1,10 @@
-﻿
+﻿using Instructor_DiceRollGame.Game;
+
+var random = new Random();
+var dice = new Dice(random);
+var guessingGame = new GuessingGame(dice);
+
+GameResult gameResult = guessingGame.Play();
+guessingGame.PrintResult(gameResult);
 
 Console.ReadKey();
-
-class Dice
-{
-    private Random _random;
-
-    public Dice(Random random)
-    {
-        _random = random;
-    }
-
-    public int Roll()
-    {
-        return _random.Next(1, 7);
-    }
-}
