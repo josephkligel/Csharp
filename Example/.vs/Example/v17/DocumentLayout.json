@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C316C776-2DA2-406A-B3B4-D45E98EA3004}|Example\\Example.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\example\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C316C776-2DA2-406A-B3B4-D45E98EA3004}|Example\\Example.csproj|solutionrelative:example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7404607-7E4A-4A46-96A8-A2C14C265690}|Implicit Conversion\\Implicit Conversion.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\example\\implicit conversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7404607-7E4A-4A46-96A8-A2C14C265690}|Implicit Conversion\\Implicit Conversion.csproj|solutionrelative:implicit conversion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Example\\Implicit Conversion\\Program.cs",
+              "RelativeDocumentMoniker": "Implicit Conversion\\Program.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Example\\Implicit Conversion\\Program.cs*",
+              "RelativeToolTip": "Implicit Conversion\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T20:47:47.895Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Example\\Program.cs",
               "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Example\\Example\\Program.cs",
               "RelativeToolTip": "Example\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:52:33.547Z",
               "EditorCaption": ""

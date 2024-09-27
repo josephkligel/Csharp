@@ -36,18 +36,40 @@
 //    Console.WriteLine(ingredient.Name);
 //}
 
-var cheddar = new Cheddar();
+//var cheddar = new Cheddar();
 
-Console.WriteLine(new TomatoSauce());
-Console.WriteLine(new List<int>());
+//Console.WriteLine(new TomatoSauce());
+//Console.WriteLine(new List<int>());
 
-Console.WriteLine(123);
-Console.WriteLine(new DateTime(2023, 5, 6));
-Console.WriteLine("hello");
+//Console.WriteLine(123);
+//Console.WriteLine(new DateTime(2023, 5, 6));
+//Console.WriteLine("hello");
 
-Console.WriteLine(new Pizza());
+//Console.WriteLine(new Pizza());
+
+//var ingredient = new Ingredient(1);
+
+//var cheddar = new Cheddar(2, 12);
+
+//Console.WriteLine(cheddar);
+
+
+
+int seasonNumber = 0;
+Season spring = (Season)seasonNumber;
+
+int integer = 10;
+decimal b = integer;
 
 Console.ReadKey();
+
+public enum Season
+{
+    Spring,
+    Summer,
+    Autumn,
+    Winter
+}
 
 public class Pizza
 {
@@ -62,6 +84,15 @@ public class Pizza
 
 public class Ingredient
 {
+    public Ingredient(int priceIfExtraTopping)
+    {
+        Console.WriteLine(
+            "Contructor from the Ingredient class"
+            );
+        PriceIfExtraTopping = priceIfExtraTopping;
+    }
+
+    public int PriceIfExtraTopping { get; }
     public override string ToString() => Name;
     public virtual string Name { get; } = "Some ingredient";
 
@@ -79,19 +110,26 @@ public class Ingredient
 
 }
 
-public class Cheese: Ingredient
+public class Cheese : Ingredient
 {
-
+    public Cheese(int priceIfExtraTopping) : base(priceIfExtraTopping)
+    {
+    }
 }
 
-public class ItalianFood
+public class Cheddar: Ingredient
 {
-
-}
-
-public class Cheddar : Cheese
-{
-    public override string Name => "Cheddar cheese";
+    public Cheddar(int priceIfExtraTopping, int agedForMonths) 
+        : base(priceIfExtraTopping)
+    {
+        AgedForMonths = agedForMonths;
+        Console.WriteLine(
+            "Contructor from the Cheddar class."
+            );
+    }
+    public override string Name =>
+        $"{base.Name}, more specifically, " +
+        $"a Cheddar cheese aged for {AgedForMonths} months";
     public int AgedForMonths { get; }
 
     public void UseMethodsFromBaseClass()
@@ -106,12 +144,20 @@ public class Cheddar : Cheese
 
 public class TomatoSauce: Ingredient
 {
+    public TomatoSauce(int priceIfExtraTopping) : base(priceIfExtraTopping)
+    {
+    }
+
     public override string Name => "Tomatoe sauce";
     public int TomatoesIn100Grams { get; }
 }
 
-public class Mozzarella : Cheese
+public class Mozzarella : Ingredient
 {
+    public Mozzarella(int priceIfExtraTopping) : base(priceIfExtraTopping)
+    {
+    }
+
     public override string Name => "Mozarella";
     public bool IsLight { get; }
 }
