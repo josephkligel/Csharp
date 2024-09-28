@@ -53,26 +53,37 @@
 
 //Console.WriteLine(cheddar);
 
+//Ingredient ingredient = new Cheddar(2, 12);
+//Ingredient randomIngredient = GenerateRandomIngredient();
+//Console.WriteLine("Random ingredient is " + randomIngredient);
 
+//Console.WriteLine($"is object? {ingredient is object}");
+//Console.WriteLine($"is ingredient? {ingredient is Ingredient}");
+//Console.WriteLine($"is cheddar? {ingredient is Cheddar}");
+//Console.WriteLine($"is mozzarella? {ingredient is Mozzarella}");
+//Console.WriteLine($"is tomato sauce? {ingredient is TomatoSauce}");
 
-int seasonNumber = 0;
-Season spring = (Season)seasonNumber;
-
-int integer = 10;
-decimal b = integer;
+//if (randomIngredient is Cheddar)
+//{
+//    Cheddar cheddar = (Cheddar)randomIngredient;
+//    Console.WriteLine("cheddar object: " + cheddar);
+//}
 
 Console.ReadKey();
 
-public enum Season
-{
-    Spring,
-    Summer,
-    Autumn,
-    Winter
-}
+//Ingredient GenerateRandomIngredient()
+//{
+//    var random = new Random();
+//    var number = random.Next(1, 4);
+//    if (number == 1) { return new Cheddar(2, 12); }
+//    if (number == 2) { return new TomatoSauce(1); }
+//    else return new Mozzarella(2);
+//}
 
 public class Pizza
 {
+    public Ingredient ingredient;
+
     private List<Ingredient> _ingredients = new();
 
     public void AddIngredient(Ingredient ingredient) =>
