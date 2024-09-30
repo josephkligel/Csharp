@@ -68,18 +68,63 @@
 //    Cheddar cheddar = (Cheddar)randomIngredient;
 //    Console.WriteLine("cheddar object: " + cheddar);
 //}
+//Ingredient ingredient = GenerateRandomIngredient();
+//Console.WriteLine($"Ingredient is {ingredient}");
+//Cheddar cheddar = ingredient as Cheddar;
+
+//if (cheddar != null)
+//{
+//    Console.WriteLine(cheddar.Name);
+//}
+//else
+//{
+//    Console.WriteLine("Conversion failed");
+//}
+
+//var cheddar = new Cheddar(2, 12);
+//var tomatoSauce = new TomatoSauce(1);
+//cheddar.Prepare();
+//tomatoSauce.Prepare();
+
+//var ingredients = new List<Ingredient>
+//{
+//    new Cheddar(2, 10),
+//    new Mozzarella(2),
+//    new TomatoSauce(1)
+//};
+
+//foreach (Ingredient ingredient in ingredients)
+//{
+//    ingredient.Prepare();
+//}
+
+var pizza = RandomPizzaGenerator.Generate(3);
 
 Console.ReadKey();
 
-//Ingredient GenerateRandomIngredient()
-//{
-//    var random = new Random();
-//    var number = random.Next(1, 4);
-//    if (number == 1) { return new Cheddar(2, 12); }
-//    if (number == 2) { return new TomatoSauce(1); }
-//    else return new Mozzarella(2);
-//}
+public static class RandomPizzaGenerator
+{
+    public static Pizza Generate(int howManyIngredients)
+    {
+        var pizza = new Pizza();
+        for (int i = 0; i < howManyIngredients; ++i)
+        {
+            var randomIngredient = GenerateRandomIngredient();
+            pizza.AddIngredient(randomIngredient);
+        }
 
+        return pizza;
+    }
+
+    private static Ingredient GenerateRandomIngredient()
+    {
+        var random = new Random();
+        var number = random.Next(1, 4);
+        if (number == 1) { return new Cheddar(2, 12); }
+        if (number == 2) { return new TomatoSauce(1); }
+        else return new Mozzarella(2);
+    }
+}
 public class Pizza
 {
     public Ingredient ingredient;
@@ -93,7 +138,7 @@ public class Pizza
         $"This is a pizza with {string.Join(", ", _ingredients)}";
 }
 
-public class Ingredient
+public abstract class Ingredient
 {
     public Ingredient(int priceIfExtraTopping)
     {
@@ -106,6 +151,8 @@ public class Ingredient
     public int PriceIfExtraTopping { get; }
     public override string ToString() => Name;
     public virtual string Name { get; } = "Some ingredient";
+
+    public abstract void Prepare();
 
     public int PublicField;
     public string PublicMethod() =>
@@ -121,7 +168,7 @@ public class Ingredient
 
 }
 
-public class Cheese : Ingredient
+public abstract class Cheese : Ingredient
 {
     public Cheese(int priceIfExtraTopping) : base(priceIfExtraTopping)
     {
@@ -143,6 +190,11 @@ public class Cheddar: Ingredient
         $"a Cheddar cheese aged for {AgedForMonths} months";
     public int AgedForMonths { get; }
 
+    public override void Prepare()
+    {
+        Console.WriteLine("Grate and sprinkle on pizza");
+    }
+
     public void UseMethodsFromBaseClass()
     {
         Console.WriteLine(PublicMethod());
@@ -161,9 +213,15 @@ public class TomatoSauce: Ingredient
 
     public override string Name => "Tomatoe sauce";
     public int TomatoesIn100Grams { get; }
+
+    public sealed override void Prepare()
+    {
+        Console.WriteLine("Cook tomatoes with basil, garlic, and salt. " +
+            "Spread on pizza.");
+    }
 }
 
-public class Mozzarella : Ingredient
+public sealed class Mozzarella : Ingredient
 {
     public Mozzarella(int priceIfExtraTopping) : base(priceIfExtraTopping)
     {
@@ -171,4 +229,9 @@ public class Mozzarella : Ingredient
 
     public override string Name => "Mozarella";
     public bool IsLight { get; }
+
+    public override void Prepare()
+    {
+        Console.WriteLine("Slice thinly and place on top of pizza.");
+    }
 }

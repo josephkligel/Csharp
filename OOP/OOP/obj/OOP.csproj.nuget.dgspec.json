@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj": {}
+    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj": {
+    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj",
+        "projectUniqueName": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj",
         "projectName": "OOP",
-        "projectPath": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj",
-        "packagesPath": "C:\\Users\\jklig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\obj\\",
+        "projectPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\OOP.csproj",
+        "packagesPath": "C:\\Users\\c0021\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jklig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\c0021\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
