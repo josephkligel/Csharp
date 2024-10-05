@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj": {}
+    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj": {
+    "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj",
+        "projectUniqueName": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj",
         "projectName": "Dates",
-        "projectPath": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj",
-        "packagesPath": "C:\\Users\\jklig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jklig\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\obj\\",
+        "projectPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\Dates.csproj",
+        "packagesPath": "C:\\Users\\c0021\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Todolist\\Dates\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jklig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\c0021\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

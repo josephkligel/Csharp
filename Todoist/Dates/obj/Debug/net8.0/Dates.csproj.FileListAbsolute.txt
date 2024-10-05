@@ -1,0 +1,15 @@
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\bin\Debug\net8.0\Dates.exe
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\bin\Debug\net8.0\Dates.deps.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\bin\Debug\net8.0\Dates.runtimeconfig.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\bin\Debug\net8.0\Dates.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\bin\Debug\net8.0\Dates.pdb
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.AssemblyInfoInputs.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.AssemblyInfo.cs
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.csproj.CoreCompileInputs.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.sourcelink.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\refint\Dates.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.pdb
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\Dates.genruntimeconfig.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\Dates\obj\Debug\net8.0\ref\Dates.dll

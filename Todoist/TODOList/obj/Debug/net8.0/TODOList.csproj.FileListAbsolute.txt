@@ -1,0 +1,15 @@
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\bin\Debug\net8.0\TODOList.exe
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\bin\Debug\net8.0\TODOList.deps.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\bin\Debug\net8.0\TODOList.runtimeconfig.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\bin\Debug\net8.0\TODOList.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\bin\Debug\net8.0\TODOList.pdb
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.AssemblyInfoInputs.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.AssemblyInfo.cs
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.csproj.CoreCompileInputs.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.sourcelink.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\refint\TODOList.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.pdb
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\TODOList.genruntimeconfig.cache
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\Todoist\TODOList\obj\Debug\net8.0\ref\TODOList.dll

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazorserverdemo\\blazorserverdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|solutionrelative:blazorserverdemo\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazorserverdemo\\blazorserverdemo\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|solutionrelative:blazorserverdemo\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazorserverdemo\\blazorserverdemo\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|solutionrelative:blazorserverdemo\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazorserverdemo\\blazorserverdemo\\components\\pages\\test.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4B62788-45F1-42C2-B9D9-29BDEF4FC157}|BlazorServerDemo\\BlazorServerDemo.csproj|solutionrelative:blazorserverdemo\\components\\pages\\test.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorServerDemo\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\App.razor",
+              "RelativeToolTip": "BlazorServerDemo\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T13:43:04.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorServerDemo\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorServerDemo\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T13:03:43.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\Pages\\Test.razor",
+              "RelativeDocumentMoniker": "BlazorServerDemo\\Components\\Pages\\Test.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\Pages\\Test.razor",
+              "RelativeToolTip": "BlazorServerDemo\\Components\\Pages\\Test.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T13:00:48.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorServerDemo\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorServerDemo\\BlazorServerDemo\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorServerDemo\\Components\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T12:59:36.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

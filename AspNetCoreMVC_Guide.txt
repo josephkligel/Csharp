@@ -1,0 +1,21 @@
+1. Create "ASP.NET Web App (MVC)" project
+2. Manage NuGET packages and install 3 frameworks:
+	I. Microsoft.EntityFrameworkCore
+	II. Microsoft.EntityFrameworkCore.Tools
+	III. Microsoft.SqlServer.Server
+	IV. Microsoft.EntityFrameworkCore.SqlServer
+3. Create models and contexts (contexts are created in Data folder)
+4. Create SQL server connection:
+	I. Go to Server Explorer
+	II. Right-click data connections and create new SQL server database
+	III. Type out database to create and connect to server
+5. Open "appsettings.json" file and add connection string to the end of json object:
+	I. You can find connection string in the properties window for the created database
+	II. Add a value of 
+		"ConnectionStrings": {
+    			"DefaultConnectionString": "Data Source=DESKTOP-PI8VAVU;Initial Catalog=Menu_Database;Encrypt=False;Integrated Security=True;Pooling=False;Encrypt=True;Trust Server Certificate=True"
+		} 
+		to the end of JSON object.
+	III. Add "Encrypted=False" after "Initial Catalog" value and save settings file
+6. Add a service to program.cs:
+		

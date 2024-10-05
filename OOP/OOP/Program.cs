@@ -98,43 +98,84 @@
 //    ingredient.Prepare();
 //}
 
-var pizza = RandomPizzaGenerator.Generate(3);
+//var pizza = RandomPizzaGenerator.Generate(3);
 
-Console.ReadKey();
+//using OOP.Extensions;
 
-public static class RandomPizzaGenerator
+//var multiline = @"aaaa
+//bbbb
+//cccc
+//dddd";
+
+//Console.WriteLine("Count of lines is " + multiline.CountLines());
+//Console.WriteLine("Count of lines is " + StringExtensions.CountLines(multiline));
+
+//Console.WriteLine("Next after spring is " + Season.Spring.Next());
+
+//Console.ReadKey();
+
+//public static class RandomPizzaGenerator
+//{
+//    public static Pizza Generate(int howManyIngredients)
+//    {
+//        var pizza = new Pizza();
+//        for (int i = 0; i < howManyIngredients; ++i)
+//        {
+//            var randomIngredient = GenerateRandomIngredient();
+//            pizza.AddIngredient(randomIngredient);
+//        }
+
+//        return pizza;
+//    }
+
+//    private static Ingredient GenerateRandomIngredient()
+//    {
+//        var random = new Random();
+//        var number = random.Next(1, 4);
+//        if (number == 1) { return new Cheddar(2, 12); }
+//        if (number == 2) { return new TomatoSauce(1); }
+//        else return new Mozzarella(2);
+//    }
+//}
+
+var bakeableDishes = new List<IBakeable>
 {
-    public static Pizza Generate(int howManyIngredients)
-    {
-        var pizza = new Pizza();
-        for (int i = 0; i < howManyIngredients; ++i)
-        {
-            var randomIngredient = GenerateRandomIngredient();
-            pizza.AddIngredient(randomIngredient);
-        }
+    new Pizza(),
+    new Panettone(),
+};
 
-        return pizza;
-    }
-
-    private static Ingredient GenerateRandomIngredient()
-    {
-        var random = new Random();
-        var number = random.Next(1, 4);
-        if (number == 1) { return new Cheddar(2, 12); }
-        if (number == 2) { return new TomatoSauce(1); }
-        else return new Mozzarella(2);
-    }
+foreach(var bakeableDish in bakeableDishes)
+{
+    Console.WriteLine(bakeableDish.GetInstructions());
 }
-public class Pizza
+
+public abstract class Dessert { }
+
+public interface IBakeable
+{
+    public abstract string GetInstructions();
+}
+
+public class Panettone: Dessert, IBakeable
+{
+    public string GetInstructions() =>
+        $"Bake at 180 degrees Celsius for 35 minutes";
+}
+public class Pizza: IBakeable
 {
     public Ingredient ingredient;
-
+    
     private List<Ingredient> _ingredients = new();
 
     public void AddIngredient(Ingredient ingredient) =>
         _ingredients.Add(ingredient);
 
-    public override string ToString() =>
+	public string GetInstructions()
+	{
+        return "Bake at 250 degrees Celcius for 10 minutes";
+	}
+
+	public override string ToString() =>
         $"This is a pizza with {string.Join(", ", _ingredients)}";
 }
 
@@ -234,4 +275,12 @@ public sealed class Mozzarella : Ingredient
     {
         Console.WriteLine("Slice thinly and place on top of pizza.");
     }
+}
+
+public enum Season
+{
+    Spring,
+    Summer,
+    Autumn,
+    Winter,
 }

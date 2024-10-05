@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25FA56B7-89A2-4D0A-8C4F-EF6986F81E00}|JSON\\JSON.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\oop\\json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FA56B7-89A2-4D0A-8C4F-EF6986F81E00}|JSON\\JSON.csproj|solutionrelative:json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAAB71B7-4DCA-4FB6-A3A9-229D5DAAD7FF}|OOP\\OOP.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\oop\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAB71B7-4DCA-4FB6-A3A9-229D5DAAD7FF}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAB71B7-4DCA-4FB6-A3A9-229D5DAAD7FF}|OOP\\OOP.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\oop\\oop\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAB71B7-4DCA-4FB6-A3A9-229D5DAAD7FF}|OOP\\OOP.csproj|solutionrelative:oop\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAB71B7-4DCA-4FB6-A3A9-229D5DAAD7FF}|OOP\\OOP.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\oop\\oop\\extensions\\seasonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAB71B7-4DCA-4FB6-A3A9-229D5DAAD7FF}|OOP\\OOP.csproj|solutionrelative:oop\\extensions\\seasonextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
               "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\Program.cs",
               "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAADgv1AAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAQwKsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T15:04:07.172Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\JSON\\Program.cs",
+              "RelativeDocumentMoniker": "JSON\\Program.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\JSON\\Program.cs",
+              "RelativeToolTip": "JSON\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:19:35.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeasonExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\Extensions\\SeasonExtensions.cs",
+              "RelativeDocumentMoniker": "OOP\\Extensions\\SeasonExtensions.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\Extensions\\SeasonExtensions.cs",
+              "RelativeToolTip": "OOP\\Extensions\\SeasonExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T22:25:48.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\Extensions\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "OOP\\Extensions\\StringExtensions.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\OOP\\OOP\\Extensions\\StringExtensions.cs",
+              "RelativeToolTip": "OOP\\Extensions\\StringExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T22:14:28.247Z"
             }
           ]
         }
