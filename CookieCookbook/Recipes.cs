@@ -30,7 +30,7 @@ namespace CookieCookbook
 				Console.WriteLine($"***** {recipeCounter} *****");
 				foreach (var ingredient in recipe.Ingredients)
 				{
-                    Console.WriteLine($"{ingredient.Name}. {ingredient.Instructions}");
+					ingredient.PrintNameAndInstructions();
 				}
 				
 				recipeCounter++;

@@ -10,14 +10,12 @@ namespace CookieCookbook
 
 		public static string ReadFromJson()
 		{
-			var jsonString = File.ReadAllText(jsonFilename);
-			return jsonString;
+			return File.ReadAllText(jsonFilename);
 		}
 
 		public static string[] ReadFromText()
 		{
-			var textLines = File.ReadAllLines(textFilename);
-			return textLines;
+			return File.ReadAllLines(textFilename);
 		}
 
 		public static void WriteToJson(Recipe recipe)

@@ -31,10 +31,10 @@ Console.WriteLine();
 Console.WriteLine("Create a new cookie recipe! Available Ingredients are:");
 ingredients.Print();
 
-// Runs program until continueProgram is false
-while (continueProgram)
-{
+// Runs program while recipe has ingredients and continueProgram var is true
 
+do
+{
 	Console.WriteLine("Add an ingredient by its ID or type anything else if finished.");
 
 	if (int.TryParse(Console.ReadLine(), out int ingredientId))
@@ -48,13 +48,26 @@ while (continueProgram)
 	{
 		continueProgram = false;
 	}
-}
+} while (recipe.Ingredients.Count >= 1 && continueProgram);
 
-if (fileFormat == FileFormat.Json)
+if(recipe.Ingredients.Count < 1)
 {
-	RecipeFileRepository.WriteToJson(recipe);
+	Console.WriteLine("No ingredients have been selected. Recipe will not be saved.");
 }
 else
 {
-	RecipeFileRepository.WriteToText(recipe);
+    Console.WriteLine("Recipe added:");
+	foreach (var ingredient in recipe.Ingredients) ingredient.PrintNameAndInstructions();
+    Console.WriteLine("Storing recipes in a text file.");
+	if (fileFormat == FileFormat.Json)
+	{
+		RecipeFileRepository.WriteToJson(recipe);
+	}
+	else
+	{
+		RecipeFileRepository.WriteToText(recipe);
+	}
 }
+
+Console.WriteLine("Press any key to close.");
+Console.ReadKey();

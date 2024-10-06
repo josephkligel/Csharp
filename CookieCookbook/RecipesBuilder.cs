@@ -20,12 +20,23 @@ namespace CookieCookbook
 			foreach(var itemList in jsonList)
 			{
 				Recipe recipe = new Recipe();
-				foreach(var item in itemList)
+				//foreach(var item in itemList)
+				//{
+				//	var idNumber = (int)item;
+				//	recipe.AddIngredient(
+				//		new Ingredients().All[idNumber - 1]
+				//		);
+
+				//}
+				var input = itemList.Trim('[', ']').Split(',');
+				foreach(var item in input)
 				{
-					var idNumber = (int)item;
-					recipe.AddIngredient(
-						new Ingredients().All[idNumber - 1]
-						);
+					if (int.TryParse(item, out int ingredientId))
+					{
+						recipe.Ingredients.Add(
+							new Ingredients().All[ingredientId - 1]
+							);
+					}
 				}
 
 				recipes.All.Add(recipe);
@@ -46,10 +57,12 @@ namespace CookieCookbook
 				var recipe = new Recipe();
 				foreach (var item in ingredientIdList)
 				{
-					_ = int.TryParse(item, out int ingredientId);
-					recipe.Ingredients.Add(
-						new Ingredients().All[ingredientId - 1]
-						);
+                    if(int.TryParse(item, out int ingredientId))
+					{
+						recipe.Ingredients.Add(
+							new Ingredients().All[ingredientId - 1]
+							);
+					}
 
 				}
 				recipes.All.Add(recipe);

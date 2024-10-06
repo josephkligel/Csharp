@@ -17,5 +17,10 @@
 		{
             Console.WriteLine($"{ID}.{Name}");
 		}
+
+		public void PrintNameAndInstructions()
+		{
+            Console.WriteLine($"{Name}. {Instructions}");
+		}
 	}
 }
