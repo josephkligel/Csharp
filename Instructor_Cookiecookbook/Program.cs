@@ -1,5 +1,7 @@
-﻿var cookiesRecipesApp = new CookiesRecipeApp();
-cookiesRecipesApp.Run();
+﻿using Instructor_Cookiecookbook;
+
+var cookiesRecipesApp = new CookiesRecipeApp();
+cookiesRecipesApp.Run("recipes.txt");
 
 class CookiesRecipeApp
 {
@@ -14,30 +16,30 @@ class CookiesRecipeApp
         _recipesRepository = recipesRepository;
         _recipesUserInteraction = recipesUserInteraction;
     }
-    public void Run()
+    public void Run(string filePath)
 	{
         var allRecipes = _recipesRepository.Read(filePath);
         _recipesUserInteraction.PrintExistingRecipes(allRecipes);
 
-        _recipesUserInteraction.PromptToCreateRecipe();
+        //_recipesUserInteraction.PromptToCreateRecipe();
 
-        var ingredients = _recipesUserInteraction.ReadIngredientsFromUser();
+        //var ingredients = _recipesUserInteraction.ReadIngredientsFromUser();
 
-        if(ingredients.Count > 0)
-        {
-            var recipe = new Recipe(ingredients);
-            allRecipes.Add(recipe);
-            _recipesRepository.Write(filePath, allRecipes);
+        //if(ingredients.Count > 0)
+        //{
+        //    var recipe = new Recipe(ingredients);
+        //    allRecipes.Add(recipe);
+        //    _recipesRepository.Write(filePath, allRecipes);
 
-            _recipesUserInteraction.ShowMessage("Recipe added:");
-            _recipesUserInteraction.ShowMessage(recipe.ToString());
-        }
-        else
-        {
-            _recipesUserInteraction.ShowMessage(
-                "No ingredients have been selected. " +
-                "Recipe will not be saved.");
-        }
+        //    _recipesUserInteraction.ShowMessage("Recipe added:");
+        //    _recipesUserInteraction.ShowMessage(recipe.ToString());
+        //}
+        //else
+        //{
+        //    _recipesUserInteraction.ShowMessage(
+        //        "No ingredients have been selected. " +
+        //        "Recipe will not be saved.");
+        //}
 
         _recipesUserInteraction.Exit();
 	}
