@@ -1,16 +1,20 @@
 ﻿using Instructor_Cookiecookbook;
+using Instructor_CookieCookbook.Recipes;
 
-var cookiesRecipesApp = new CookiesRecipeApp();
+var cookiesRecipesApp = new CookiesRecipeApp(
+    new RecipesRepository(),
+    new RecipesConsoleUserInteraction(
+        new IngredientsRegister()));
 cookiesRecipesApp.Run("recipes.txt");
 
 class CookiesRecipeApp
 {
 	private readonly RecipesRepository _recipesRepository;
-	private readonly RecipesUserInteraction _recipesUserInteraction;
+	private readonly IRecipesUserInteraction _recipesUserInteraction;
 
     public CookiesRecipeApp(
         RecipesRepository recipesRepository,
-        RecipesUserInteraction recipesUserInteraction
+        RecipesConsoleUserInteraction recipesUserInteraction
         )
     {
         _recipesRepository = recipesRepository;
@@ -21,25 +25,25 @@ class CookiesRecipeApp
         var allRecipes = _recipesRepository.Read(filePath);
         _recipesUserInteraction.PrintExistingRecipes(allRecipes);
 
-        //_recipesUserInteraction.PromptToCreateRecipe();
+        _recipesUserInteraction.PromptToCreateRecipe();
 
-        //var ingredients = _recipesUserInteraction.ReadIngredientsFromUser();
+        var ingredients = _recipesUserInteraction.ReadIngredientsFromUser();
 
-        //if(ingredients.Count > 0)
-        //{
-        //    var recipe = new Recipe(ingredients);
-        //    allRecipes.Add(recipe);
-        //    _recipesRepository.Write(filePath, allRecipes);
+        if (ingredients.Count() > 0)
+        {
+            var recipe = new Recipe(ingredients);
+            allRecipes.Add(recipe);
+            //_recipesRepository.Write(filePath, allRecipes);
 
-        //    _recipesUserInteraction.ShowMessage("Recipe added:");
-        //    _recipesUserInteraction.ShowMessage(recipe.ToString());
-        //}
-        //else
-        //{
-        //    _recipesUserInteraction.ShowMessage(
-        //        "No ingredients have been selected. " +
-        //        "Recipe will not be saved.");
-        //}
+            _recipesUserInteraction.ShowMessage("Recipe added:");
+            _recipesUserInteraction.ShowMessage(recipe.ToString());
+        }
+        else
+        {
+            _recipesUserInteraction.ShowMessage(
+                "No ingredients have been selected. " +
+                "Recipe will not be saved.");
+        }
 
         _recipesUserInteraction.Exit();
 	}

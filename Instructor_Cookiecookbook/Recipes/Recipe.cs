@@ -7,7 +7,7 @@ namespace Instructor_CookieCookbook.Recipes
         public IEnumerable<Ingredient> Ingredients { get; }
 
 
-        public Recipe(List<Ingredient> ingredients)
+        public Recipe(IEnumerable<Ingredient> ingredients)
         {
             Ingredients = ingredients;
         }
