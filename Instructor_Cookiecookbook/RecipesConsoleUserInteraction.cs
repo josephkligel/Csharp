@@ -4,8 +4,8 @@ using Instructor_CookieCookbook.Recipes;
 
 public class RecipesConsoleUserInteraction: IRecipesUserInteraction
 {
-    private readonly IngredientsRegister _ingredientsRegister;
-    public RecipesConsoleUserInteraction(IngredientsRegister ingredientsRegister)
+    private readonly IIngredientsRegister _ingredientsRegister;
+    public RecipesConsoleUserInteraction(IIngredientsRegister ingredientsRegister)
     {
         _ingredientsRegister = ingredientsRegister;
     }

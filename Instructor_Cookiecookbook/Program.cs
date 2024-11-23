@@ -1,8 +1,12 @@
 ﻿using Instructor_Cookiecookbook;
 using Instructor_CookieCookbook.Recipes;
 
+var ingredientsRegister = new IngredientsRegister();
+
 var cookiesRecipesApp = new CookiesRecipeApp(
-    new RecipesRepository(),
+    new RecipesRepository(
+        new StringsTextualRepository(),
+        new IngredientsRegister()),
     new RecipesConsoleUserInteraction(
         new IngredientsRegister()));
 cookiesRecipesApp.Run("recipes.txt");
@@ -33,7 +37,7 @@ class CookiesRecipeApp
         {
             var recipe = new Recipe(ingredients);
             allRecipes.Add(recipe);
-            //_recipesRepository.Write(filePath, allRecipes);
+            _recipesRepository.Write(filePath, allRecipes);
 
             _recipesUserInteraction.ShowMessage("Recipe added:");
             _recipesUserInteraction.ShowMessage(recipe.ToString());
