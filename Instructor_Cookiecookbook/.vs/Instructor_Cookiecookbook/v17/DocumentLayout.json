@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\instructor_cookiecookbook\\recipesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|solutionrelative:recipesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\instructor_cookiecookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\instructor_cookiecookbook\\stringsjsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|solutionrelative:stringsjsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\instructor_cookiecookbook\\stringstextualrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|solutionrelative:stringstextualrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\instructor_cookiecookbook\\ingredientsregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|solutionrelative:ingredientsregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\instructor_cookiecookbook\\fileaccess\\fileformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C932C42D-4DB2-4AEC-B0F4-44B4E56BA9F7}|Instructor_Cookiecookbook.csproj|solutionrelative:fileaccess\\fileformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T02:50:59.946Z",
               "IsPinned": true,
@@ -48,54 +36,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecipesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\RecipesRepository.cs",
-              "RelativeDocumentMoniker": "RecipesRepository.cs",
-              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\RecipesRepository.cs",
-              "RelativeToolTip": "RecipesRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDkAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FileFormat.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\FileAccess\\FileFormat.cs",
+              "RelativeDocumentMoniker": "FileAccess\\FileFormat.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\FileAccess\\FileFormat.cs",
+              "RelativeToolTip": "FileAccess\\FileFormat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T23:31:29.635Z",
+              "WhenOpened": "2024-11-24T22:12:38.219Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StringsJsonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\StringsJsonRepository.cs",
-              "RelativeDocumentMoniker": "StringsJsonRepository.cs",
-              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\StringsJsonRepository.cs",
-              "RelativeToolTip": "StringsJsonRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T18:48:27.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StringsTextualRepository.cs",
-              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\StringsTextualRepository.cs",
-              "RelativeDocumentMoniker": "StringsTextualRepository.cs",
-              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\StringsTextualRepository.cs",
-              "RelativeToolTip": "StringsTextualRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T02:57:45.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IngredientsRegister.cs",
-              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\IngredientsRegister.cs",
-              "RelativeDocumentMoniker": "IngredientsRegister.cs",
-              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Instructor_Cookiecookbook\\IngredientsRegister.cs",
-              "RelativeToolTip": "IngredientsRegister.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T02:54:35.064Z"
             }
           ]
         }

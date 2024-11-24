@@ -1,7 +1,8 @@
-﻿using Instructor_Cookiecookbook.Recipes.Ingredients;
+﻿using Instructor_Cookiecookbook.DataAccess;
+using Instructor_Cookiecookbook.Recipes.Ingredients;
 using Instructor_CookieCookbook.Recipes;
 
-namespace Instructor_Cookiecookbook
+namespace Instructor_Cookiecookbook.Recipes
 {
     public class RecipesRepository : IRecipesRepository
     {
@@ -9,18 +10,18 @@ namespace Instructor_Cookiecookbook
         private readonly IIngredientsRegister _ingredientsRegister;
         private string Seperator = ",";
 
-		public RecipesRepository(
-            IStringsRepository stringRepository, 
+        public RecipesRepository(
+            IStringsRepository stringRepository,
             IIngredientsRegister ingredientsRegister)
-		{
-			_stringRepository = stringRepository;
-			_ingredientsRegister = ingredientsRegister;
-		}
-		public List<Recipe> Read(string filePath)
+        {
+            _stringRepository = stringRepository;
+            _ingredientsRegister = ingredientsRegister;
+        }
+        public List<Recipe> Read(string filePath)
         {
             List<string> recipesFromFile = _stringRepository.Read(filePath);
             var recipes = new List<Recipe>();
-            foreach(var recipeFromFile in recipesFromFile)
+            foreach (var recipeFromFile in recipesFromFile)
             {
                 var recipe = RecipeFromString(recipeFromFile);
                 recipes.Add(recipe);
@@ -33,7 +34,7 @@ namespace Instructor_Cookiecookbook
             var textualIds = recipeFromFile.Split(Seperator);
             var ingredients = new List<Ingredient>();
 
-            foreach(var textualId in textualIds)
+            foreach (var textualId in textualIds)
             {
                 var id = int.Parse(textualId);
                 var ingredient = _ingredientsRegister.GetById(id);
@@ -43,19 +44,19 @@ namespace Instructor_Cookiecookbook
             return new Recipe(ingredients);
         }
 
-		public void Write(string filePath, List<Recipe> allRecipes)
-		{
+        public void Write(string filePath, List<Recipe> allRecipes)
+        {
             var recipesAsStrings = new List<string>();
             foreach (var recipe in allRecipes)
             {
                 var allIds = new List<int>();
-                foreach(var ingredient in recipe.Ingredients)
+                foreach (var ingredient in recipe.Ingredients)
                 {
                     allIds.Add(ingredient.Id);
                 }
                 recipesAsStrings.Add(string.Join(Seperator, allIds));
             }
             _stringRepository.Write(filePath, recipesAsStrings);
-		}
-	}
+        }
+    }
 }
