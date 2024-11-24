@@ -55,7 +55,7 @@ namespace Instructor_Cookiecookbook
                 }
                 recipesAsStrings.Add(string.Join(Seperator, allIds));
             }
-            File.WriteAllText(filePath, string.Join(Environment.NewLine, recipesAsStrings));
+            _stringRepository.Write(filePath, recipesAsStrings);
 		}
 	}
 }
