@@ -1,4 +1,5 @@
 ﻿@page "/servers"
+@inject NavigationManager NavigationManager
 
 <h3>Servers</h3>
 <br />
@@ -22,6 +23,11 @@
     </div>
 </div>
 
+<br />
+<p>
+    <ServerComponent></ServerComponent>
+</p>
+
 <ul>
     @foreach(var server in servers)
     {
@@ -31,6 +37,12 @@
                 @(server.IsOnline ? "online" : "offline" )
             </span>
             <a href="servers/edit/@server.ServerId">Edit</a>
+            <EditForm 
+                Model="server" 
+                FormName="@($"form-name-{server.ServerId}")"
+                OnValidSubmit="@(() => {DeleteServer(server.ServerId);})">
+                <button type="submit" class="btn btn-primary">Delete</button>
+            </EditForm>
         </li>
     }
 </ul>
@@ -42,4 +54,14 @@
 @code {
     private List<Server> servers = ServerRepository.GetServersByCity("Toronto");
     private List<string> cities = CitiesRepository.GetCities();
+
+    public async Task DeleteServer(int serverId)
+    {
+        if(serverId > 0)
+        {
+            ServerRepository.DeleteServer(serverId);
+            await Task.Delay(100);
+            NavigationManager.NavigateTo("/servers");
+        }
+    }
 }
