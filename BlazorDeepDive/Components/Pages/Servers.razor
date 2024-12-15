@@ -12,7 +12,7 @@
         @foreach (var city in cities)
         {
             <div class="col">
-                <div class="card">
+                <div class="card @(selectedCity.Equals(city, StringComparison.OrdinalIgnoreCase) ? "border-primary" : "")">
                     <img class="card-img-top" src="@($"images/{city}.png")" alt="Card image cap">
                     <div class="card-body">
                         <button type="button" class="btn btn-primary" @onclick="@(() => {SelectCity(city);})">@city</button>
@@ -27,7 +27,13 @@
 </div>
 
 <br />
-    <ServerComponent @rendermode="InteractiveServer"></ServerComponent>
+
+<br />
+
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search Servers" @onchange="HandleServerFilterChange"/>
+    <button class="btn btn-outline-secondary" type="button" id="button-search" @onclick="HandleSearch">Search</button>
+</div>
 
 <ul>
     @foreach(var server in servers)
@@ -58,6 +64,8 @@
 
     private string selectedCity = "Toronto";
 
+    private string serverFilter = "";
+
     public async Task DeleteServer(int serverId)
     {
         if(serverId > 0)
@@ -73,5 +81,17 @@
         this.selectedCity = cityName;
 
         this.servers = ServerRepository.GetServersByCity(this.selectedCity);
+    }
+
+    private void HandleServerFilterChange(ChangeEventArgs args)
+    {
+        serverFilter = args.Value?.ToString() ?? string.Empty;
+    }
+
+    private void HandleSearch()
+    {
+        this.servers = ServerRepository.SearchServers(serverFilter);
+
+        this.selectedCity = string.Empty;
     }
 }
