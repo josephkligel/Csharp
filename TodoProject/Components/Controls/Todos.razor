@@ -1,0 +1,75 @@
+﻿@page "/todos"
+
+@rendermode InteractiveServer
+
+@using TodoProject.Models
+
+<div class="mb-4">
+	<input type="text" @bind="newTodo" />
+	<button type="button" class="btn btn-primary" @onclick="AddTodo">Add</button>
+</div>
+
+<ul class="list-unstyled">
+	@foreach(var todo in todos)
+	{
+		<li @key="todo.TodoId">
+			<div class="row mb-2">
+				<div class="col-1" style="width:30px">
+
+					<input type="checkbox" 
+						@bind-value="todo.IsDone" 
+						class="form-check-input"
+						style="vertical-align: bottom"/>
+
+				</div>
+				
+				<div class="col">
+
+					@if (todo.IsDone)
+					{
+						<input type="text"
+							   @bind-value="todo.Title"
+							   class="border-0 form-control text-decoration-line-through"
+							   style="vertical-align:middle" 
+						disabled />
+					}
+					else
+					{
+						<input type="text"
+							   @bind-value="todo.Title"
+							   class="border-0 form-control"
+							   style="vertical-align:middle" />
+					}
+
+				</div>
+
+				<div class="col">
+					@if(todo.IsDone)
+					{
+						<text>Completed at: @todo.CompletedDate.ToLongDateString()</text>
+					}
+				</div>
+			</div>
+		</li>
+	}
+</ul>
+
+@code {
+	public string newTodo = "";
+
+	public List<TodoItem> todos = TodoItemRepository.TodoItems;
+
+	public void AddTodo()
+	{
+		var todo = new TodoItem
+		{
+			Title = newTodo
+		};
+		TodoItemRepository.AddTodo(todo);
+
+		todos = TodoItemRepository.TodoItems;
+
+		newTodo = "";
+	}
+
+}
