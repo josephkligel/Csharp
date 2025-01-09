@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDeepDive", "BlazorDeepDive.csproj", "{A3BA1B12-6938-4A20-9925-44E433C3F910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoProject", "..\TodoProject\TodoProject.csproj", "{6EABFC32-EEA7-4570-B6AA-D3B052C918D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoProject", "..\TodoProject\TodoProject.csproj", "{6EABFC32-EEA7-4570-B6AA-D3B052C918D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
