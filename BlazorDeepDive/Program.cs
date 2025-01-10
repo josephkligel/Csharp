@@ -1,6 +1,9 @@
 using BlazorDeepDive.Components;
+using BlazorDeepDive.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<ServerRepository>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

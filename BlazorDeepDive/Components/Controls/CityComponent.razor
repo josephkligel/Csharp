@@ -14,8 +14,11 @@
     [Parameter]
     public string city { get; set; } = "";
 
-    private void SelectCity(string CityName)
+    [Parameter]
+    public EventCallback<string> SelectCityCallback { get; set; }
+
+    private void SelectCity(string cityName)
     {
-        
+        SelectCityCallback.InvokeAsync(cityName);
     }
 }
