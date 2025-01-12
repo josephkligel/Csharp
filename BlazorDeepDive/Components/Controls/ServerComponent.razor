@@ -8,17 +8,48 @@
         <span style="color:@(Server.IsOnline ? "green" : "red")">
             @(Server.IsOnline ? "online" : "offline")
         </span>
-        <a href="Servers/edit/@Server.ServerId">Edit</a>
+        &nbsp;
+        @if (Server.IsOnline)
+        {
+            <button type="button"
+                    class="btn btn-outline-danger"
+                    @onclick="@(() => {Server.IsOnline = false;})">
+                    Turn Off
+            </button>
+        }
+        else
+        {
+            <button type="button"
+                    class="btn btn-outline-success"
+                    @onclick="@(() => {Server.IsOnline = true;})">
+                    Turn On
+            </button>
+        }
+        &nbsp;
+        <a href="/servers/@Server.ServerId" class="btn btn-link">Edit</a>
+        &nbsp;
+        @*@<button type="button" class="btn btn-link" @onclick="@(() => this.editingServer = !this.editingServer)">Edit</button>*@
+        &nbsp;
         <EditForm Model="Server"
                   FormName="@($"form-name-{Server.ServerId}")"
                   OnValidSubmit="@(() => {DeleteServer(Server.ServerId);})">
             <button type="submit" class="btn btn-primary">Delete</button>
         </EditForm>
     </li>
+
+    @* 
+    @if (editingServer)
+    {
+        <BlazorDeepDive.Components.Pages.EditServer 
+        Id="this.Server.ServerId"></BlazorDeepDive.Components.Pages.EditServer>
+    }
+    *@
 }
 
 
 @code {
+    //private bool editingServer = false;
+
     [Parameter]
     public Server? Server { get; set; }
 

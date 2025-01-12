@@ -8,13 +8,13 @@
 <br />
 <br />
 
-<CityListComponent SelectCityCallback="HandleCitySelection"></CityListComponent>
+<CityListComponent @ref="cityListComponent" SelectCityCallback="HandleCitySelection"></CityListComponent>
 
 <br />
 
 <br />
 
-<SearchBarComponent SearchServerCallback="HandleSearch"></SearchBarComponent>
+<SearchBarComponent @ref="searchBarComponent" SearchServerCallback="HandleSearch"></SearchBarComponent>
 
 <ServerListComponent 
     @rendermode="InteractiveServer" 
@@ -30,14 +30,22 @@
 
     private string serverFilter = "";
 
+    private CityListComponent? cityListComponent;
+
+    private SearchBarComponent? searchBarComponent;
+
     private void HandleCitySelection(string cityName)
     {
         selectedCity = cityName;
         this.serverFilter = string.Empty;
+
+        searchBarComponent?.ClearFilter();
     }
 
     private void HandleSearch(string serverFilter)
     {
         this.serverFilter = serverFilter;
+
+        cityListComponent?.ClearSelection();
     }
 }

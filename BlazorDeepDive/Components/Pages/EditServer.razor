@@ -54,14 +54,14 @@
 
 @code {
 	[Parameter]
-	public int serverId { get; set; }
+	public int Id { get; set; }
 
 	[SupplyParameterFromForm(FormName = "formServer")]
 	private Server? server { get; set; }
 
 	protected override void OnParametersSet()
 	{
-		server ??= ServerRepository.GetServerById(this.serverId);	
+		server ??= ServerRepository.GetServerById(this.Id);	
 	}
 
 	public async Task Submit()
