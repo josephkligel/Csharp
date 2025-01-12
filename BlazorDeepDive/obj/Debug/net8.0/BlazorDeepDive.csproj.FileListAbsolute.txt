@@ -61,3 +61,5 @@ C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\BlazorDeepDive.pdb
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\BlazorDeepDive.genruntimeconfig.cache
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\ref\BlazorDeepDive.dll
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\scopedcss\Components\Controls\SearchBarComponent.razor.rz.scp.css
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\scopedcss\Components\Pages\EditServer.razor.rz.scp.css

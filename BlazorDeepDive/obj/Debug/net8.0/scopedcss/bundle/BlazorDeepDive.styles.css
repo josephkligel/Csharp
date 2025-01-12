@@ -1,3 +1,7 @@
+/* _content/BlazorDeepDive/Components/Controls/SearchBarComponent.razor.rz.scp.css */
+.input-width[b-amgibxfq8f] {
+    width: 30%;
+}
 /* _content/BlazorDeepDive/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-iccd7znpde] {
     position: relative;
@@ -200,4 +204,8 @@ main[b-iccd7znpde] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* _content/BlazorDeepDive/Components/Pages/EditServer.razor.rz.scp.css */
+.input-width[b-3op067lg4k] {
+    width: 50%;
 }
