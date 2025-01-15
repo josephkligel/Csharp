@@ -18,38 +18,38 @@
 
 <CascadingValue Name="SelectedCity" Value="@selectedCity">
 
-<ServerListComponent 
-    @rendermode="InteractiveServer" 
-    CityName="@this.selectedCity"
-    serverFilter="@this.serverFilter"></ServerListComponent>
+	<ServerListComponent @rendermode="InteractiveServer"
+						 CityName="@this.selectedCity"
+						 serverFilter="@this.serverFilter">
+	</ServerListComponent>
 
 </CascadingValue>
 
 <p>
-    <a href="/servers/add" class="btn btn-primary">Add Server</a>
+	<a href="/servers/add" class="btn btn-primary">Add Server</a>
 </p>
 
 @code {
-    private string selectedCity = "Toronto";
+	private string selectedCity = "Toronto";
 
-    private string serverFilter = "";
+	private string serverFilter = "";
 
-    private CityListComponent? cityListComponent;
+	private CityListComponent? cityListComponent;
 
-    private SearchBarComponent? searchBarComponent;
+	private SearchBarComponent? searchBarComponent;
 
-    private void HandleCitySelection(string cityName)
-    {
-        selectedCity = cityName;
-        this.serverFilter = string.Empty;
+	private void HandleCitySelection(string cityName)
+	{
+		selectedCity = cityName;
+		this.serverFilter = string.Empty;
 
-        searchBarComponent?.ClearFilter();
-    }
+		searchBarComponent?.ClearFilter();
+	}
 
-    private void HandleSearch(string serverFilter)
-    {
-        this.serverFilter = serverFilter;
+	private void HandleSearch(string serverFilter)
+	{
+		this.serverFilter = serverFilter;
 
-        cityListComponent?.ClearSelection();
-    }
+		cityListComponent?.ClearSelection();
+	}
 }

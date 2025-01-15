@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<ServerRepository>();
 
+builder.Services.AddCascadingValue("SelectedCity", sp => "Toronto");
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
