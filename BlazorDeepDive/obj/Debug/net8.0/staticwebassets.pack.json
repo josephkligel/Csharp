@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorDeepDive.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BlazorDeepDive.bundle.scp.css"
+      "PackagePath": "staticwebassets\\BlazorDeepDive.o9qmyhem5y.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\wwwroot\\app.css",
@@ -39,6 +39,10 @@
     {
       "Id": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\wwwroot\\images\\Toronto.png",
       "PackagePath": "staticwebassets\\images\\Toronto.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorDeepDive.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorDeepDive.Microsoft.AspNetCore.StaticWebAssets.props",

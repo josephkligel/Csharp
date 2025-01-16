@@ -63,3 +63,7 @@ C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\ref\BlazorDeepDive.dll
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\scopedcss\Components\Controls\SearchBarComponent.razor.rz.scp.css
 C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\scopedcss\Components\Pages\EditServer.razor.rz.scp.css
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\bin\Debug\net8.0\BlazorDeepDive.staticwebassets.endpoints.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\staticwebassets\msbuild.BlazorDeepDive.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\c0021\OneDrive\Documents\GitHub\Csharp\BlazorDeepDive\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
