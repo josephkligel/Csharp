@@ -64,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/c0021/OneDrive/Documents/GitHub/Csharp/BlazorDeepDive/Components/Pages/QuickgridDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xRdWlja2dyaWREZW1vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/c0021/OneDrive/Documents/GitHub/Csharp/BlazorDeepDive/Components/Pages/Servers.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXJ2ZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

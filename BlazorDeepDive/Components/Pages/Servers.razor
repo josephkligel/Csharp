@@ -14,7 +14,11 @@
 
 <br />
 
-<SearchBarComponent @ref="searchBarComponent" SearchServerCallback="HandleSearch"></SearchBarComponent>
+<SearchBarComponent @ref="searchBarComponent" 
+	SearchServerCallback="HandleSearch"
+	style="width:1000px"
+	data-my-attribute="my data"
+></SearchBarComponent>
 
 <CascadingValue Name="SelectedCity" Value="@selectedCity">
 
