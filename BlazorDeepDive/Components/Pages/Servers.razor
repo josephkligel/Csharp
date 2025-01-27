@@ -15,16 +15,17 @@
 <br />
 
 <SearchBarComponent @ref="searchBarComponent" 
-	SearchServerCallback="HandleSearch"
-	style="width:1000px"
-	data-my-attribute="my data"
+SearchServerCallback="HandleSearch"
+style="width:1000px"
+data-my-attribute="my data"
 ></SearchBarComponent>
 
 <CascadingValue Name="SelectedCity" Value="@selectedCity">
 
 	<ServerListComponent @rendermode="InteractiveServer"
-						 CityName="@this.selectedCity"
-						 serverFilter="@this.serverFilter">
+	CityName="@this.selectedCity"
+	serverFilter="@this.serverFilter"
+	AnoterParam="anotherParam">
 	</ServerListComponent>
 
 </CascadingValue>
@@ -33,10 +34,22 @@
 	<a href="/servers/add" class="btn btn-primary">Add Server</a>
 </p>
 
+<p>
+	<button class="btn btn-primary"
+	@onclick="@(() => {
+			Random rnd = new Random();
+			anotherParam = rnd.Next(0, 100);
+		})">
+		Change Param
+	</button>
+</p>
+
 @code {
 	private string selectedCity = "Toronto";
 
 	private string serverFilter = "";
+
+	private int anotherParam;
 
 	private CityListComponent? cityListComponent;
 
