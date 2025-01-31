@@ -61,7 +61,7 @@
 			<ChildContent Context="server">
 				<EditForm Model="server"
 						  FormName="@($"form-name-{server.ServerId}")"
-						  OnValidSubmit="@(() => {DeleteServer(server.ServerId);})">
+						  OnValidSubmit="@(async () => {await DeleteServer(server.ServerId);})">
 					<button type="submit" class="btn btn-primary">Delete</button>
 				</EditForm>
 			</ChildContent>

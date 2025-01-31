@@ -31,20 +31,26 @@
 	public string ServerFilter { get; set; } = "";
 
 	[Parameter]
-	public int AnoterParam { get; set; } 
+	public int AnoterParam { get; set; }
+
+	private System.Threading.Timer? Timer;
 
 	public List<Server>? servers;
 
 	public override Task SetParametersAsync(ParameterView parameters)
 	{
-		if(parameters.TryGetValue<string>("CityName", out var cityName)){
-			if(cityName != CityName){
+		if (parameters.TryGetValue<string>("CityName", out var cityName))
+		{
+			if (cityName != CityName)
+			{
 				base.SetParametersAsync(parameters);
 			}
 		}
 
-		if(parameters.TryGetValue<string>("SearchFilter", out var searchFilter)){
-			if(searchFilter != ServerFilter){
+		if (parameters.TryGetValue<string>("SearchFilter", out var searchFilter))
+		{
+			if (searchFilter != ServerFilter)
+			{
 				base.SetParametersAsync(parameters);
 			}
 		}
@@ -65,6 +71,30 @@
 			servers = ServerRepository.SearchServers(ServerFilter);
 		}
 
+	}
+
+	protected override void OnAfterRender(bool firstRender)
+	{
+		base.OnAfterRender(firstRender);
+
+		if (firstRender)
+		{
+			if (string.IsNullOrEmpty(this.ServerFilter))
+			{
+				servers = ServerRepository.GetServersByCity(CityName ?? "Toronto");
+			}
+			else
+			{
+				servers = ServerRepository.SearchServers(ServerFilter);
+			}
+
+			StateHasChanged();
+
+			Timer = new System.Threading.Timer(_ =>
+			{
+				base.InvokeAsync(StateHasChanged);
+			}, null, 2000, 2000);
+		}
 	}
 
 }
