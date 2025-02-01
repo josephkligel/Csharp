@@ -1,0 +1,15 @@
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\bin\Debug\net8.0\SimpleList.exe
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\bin\Debug\net8.0\SimpleList.deps.json
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\bin\Debug\net8.0\SimpleList.runtimeconfig.json
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\bin\Debug\net8.0\SimpleList.dll
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\bin\Debug\net8.0\SimpleList.pdb
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.AssemblyInfoInputs.cache
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.AssemblyInfo.cs
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.csproj.CoreCompileInputs.cache
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.sourcelink.json
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.dll
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\refint\SimpleList.dll
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.pdb
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\SimpleList.genruntimeconfig.cache
+C:\Users\jklig\Documents\Csharp\SimpleList\SimpleList\obj\Debug\net8.0\ref\SimpleList.dll
