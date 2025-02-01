@@ -1,0 +1,15 @@
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\bin\Debug\net8.0\Tuples.exe
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\bin\Debug\net8.0\Tuples.deps.json
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\bin\Debug\net8.0\Tuples.runtimeconfig.json
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\bin\Debug\net8.0\Tuples.dll
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\bin\Debug\net8.0\Tuples.pdb
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.AssemblyInfoInputs.cache
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.AssemblyInfo.cs
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.csproj.CoreCompileInputs.cache
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.sourcelink.json
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.dll
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\refint\Tuples.dll
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.pdb
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\Tuples.genruntimeconfig.cache
+C:\Users\jklig\Documents\Csharp\Tuples\Tuples\obj\Debug\net8.0\ref\Tuples.dll
