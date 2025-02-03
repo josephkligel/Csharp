@@ -1,23 +1,54 @@
-﻿var decimals = new List<decimal>() { 1.1m, 0.5m, 22.5m, 12m};
-var ints = decimals.ConvertTo();
+﻿var people = new List<Person>()
+{
+    new Person(){Name = "Anna", YearOfBirth = 1815},
+    new Person(){Name = "Bill", YearOfBirth = 2150}
+};
+
+var employees = new List<Employee>()
+{
+    new Employee(){Name = "John", YearOfBirth = 1980 },
+    new Employee(){Name = "Anna", YearOfBirth = 1815 }
+};
+
+var validPeople = GetOnlyValid(people);
+
+var validEmployees = GetOnlyValid(employees);
+
+foreach (var employee in validEmployees)
+{
+    employee.GoToWork();
+}
 
 Console.ReadKey();
 
-static class ListExtentions
+IEnumerable<TPerson> GetOnlyValid<TPerson>(IEnumerable<TPerson> persons)
+    where TPerson : Person
 {
-    public static List<TTarget> ConvertTo<TSource, TTarget>(this List<TSource> decimals)
-    {
-        var result = new List<TTarget>();
+    var result = new List<TPerson>();
 
-        foreach(var item in decimals)
+    foreach (var person in persons)
+    {
+        if (person.YearOfBirth > 1900 &&
+            person.YearOfBirth < DateTime.Now.Year)
         {
-            result.Add((typeof(TTarget))item);
+            result.Add(person);
         }
-
-        return result;
     }
-    public static void AddToFront<T>(this List<T> list, T item)
+
+    return result;
+}
+
+public class Person
+{
+    public string? Name { get; set; }
+    public int YearOfBirth { get; set; }
+
+}
+
+public class Employee: Person
+{
+    public void GoToWork()
     {
-        list.Insert(0, item);
+        Console.WriteLine("Going to work");
     }
 }

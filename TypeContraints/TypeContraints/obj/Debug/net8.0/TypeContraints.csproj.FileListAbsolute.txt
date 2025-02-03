@@ -1,0 +1,15 @@
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\bin\Debug\net8.0\TypeContraints.exe
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\bin\Debug\net8.0\TypeContraints.deps.json
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\bin\Debug\net8.0\TypeContraints.runtimeconfig.json
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\bin\Debug\net8.0\TypeContraints.dll
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\bin\Debug\net8.0\TypeContraints.pdb
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.AssemblyInfoInputs.cache
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.AssemblyInfo.cs
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.csproj.CoreCompileInputs.cache
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.sourcelink.json
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.dll
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\refint\TypeContraints.dll
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.pdb
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\TypeContraints.genruntimeconfig.cache
+C:\Users\jklig\Documents\Csharp\TypeContraints\TypeContraints\obj\Debug\net8.0\ref\TypeContraints.dll
