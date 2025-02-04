@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Instructor_Cookiecookbook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a11f24b96d8e9781575aa214fcde7b67d00797a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fafc37e46b51d47cced5e0b85f6fb5f19d438d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Instructor_Cookiecookbook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Instructor_Cookiecookbook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

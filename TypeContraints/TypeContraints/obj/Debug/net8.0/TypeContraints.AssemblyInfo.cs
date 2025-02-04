@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TypeContraints")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a13567c54efac6ecd27b2589346350195b45d9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fafc37e46b51d47cced5e0b85f6fb5f19d438d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TypeContraints")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TypeContraints")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

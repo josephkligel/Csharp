@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazordeepdive\\components\\controls\\serverlistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|solutionrelative:components\\controls\\serverlistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazordeepdive\\components\\pages\\servers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|solutionrelative:components\\pages\\servers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazordeepdive\\components\\controls\\generic\\repeatercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|solutionrelative:components\\controls\\generic\\repeatercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazordeepdive\\components\\controls\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|solutionrelative:components\\controls\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\blazordeepdive\\components\\controls\\searchbarcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3BA1B12-6938-4A20-9925-44E433C3F910}|BlazorDeepDive.csproj|solutionrelative:components\\controls\\searchbarcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Servers.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Pages\\Servers.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Servers.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Pages\\Servers.razor",
+              "RelativeToolTip": "Components\\Pages\\Servers.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T17:25:57.463Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepeaterComponent.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\Generic\\RepeaterComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Controls\\Generic\\RepeaterComponent.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\Generic\\RepeaterComponent.razor",
+              "RelativeToolTip": "Components\\Controls\\Generic\\RepeaterComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T02:05:22.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerListComponent.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\ServerListComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Controls\\ServerListComponent.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\ServerListComponent.razor",
+              "RelativeToolTip": "Components\\Controls\\ServerListComponent.razor",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwF4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T02:12:07.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerComponent.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\ServerComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Controls\\ServerComponent.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\ServerComponent.razor",
+              "RelativeToolTip": "Components\\Controls\\ServerComponent.razor",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwEkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-01T17:01:40.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchBarComponent.razor",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\SearchBarComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Controls\\SearchBarComponent.razor",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\BlazorDeepDive\\Components\\Controls\\SearchBarComponent.razor",
+              "RelativeToolTip": "Components\\Controls\\SearchBarComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T22:49:39.038Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
