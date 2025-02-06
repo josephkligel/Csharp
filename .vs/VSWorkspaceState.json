@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Generics",
-    "\\Generics\\Generics",
-    "\\Sorting"
+    "\\Generics\\Generics"
   ],
-  "SelectedNode": "\\Generics\\Generics\\Generics.csproj",
   "PreviewInSolutionExplorer": false
 }

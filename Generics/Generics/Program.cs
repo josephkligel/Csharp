@@ -103,16 +103,30 @@
 //	}
 //}
 // ------------------------------------------
-using System.Numerics;
+//using System.Numerics;
 
-Console.WriteLine("Square of 2 is: " + Calculator.Square(2));
-Console.WriteLine("Square of 4m is: " + Calculator.Square(4m));
-Console.WriteLine("Square of 6d is: " + Calculator.Square(6d));
+//Console.WriteLine("Square of 2 is: " + Calculator.Square(2));
+//Console.WriteLine("Square of 4m is: " + Calculator.Square(4m));
+//Console.WriteLine("Square of 6d is: " + Calculator.Square(6d));
+
+//Console.ReadKey();
+
+//public static class Calculator
+//{
+//	public static T Square<T>(T input) where T: INumber<T> => input * input;
+//}
+
+// ------------------------------------------
 
 Console.ReadKey();
 
-public static class Calculator
+void SomeMethod<TPet, TOwner>(TPet pet, TOwner owner) 
+	where TPet: Pet, IComparable<TPet>
+	where TOwner: new()
 {
-	public static T Square<T>(T input) where T: INumber<T> => input * input;
+
 }
 
+public class Pet { }
+
+public class PetOwner { }
