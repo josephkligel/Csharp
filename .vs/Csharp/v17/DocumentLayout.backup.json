@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45C9E942-7AA3-4F7E-AA02-D0B64C183F0A}|Delegates\\Delegates.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45C9E942-7AA3-4F7E-AA02-D0B64C183F0A}|Delegates\\Delegates.csproj|solutionrelative:delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Delegates\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Delegates\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Delegates\\Program.cs",
               "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\Delegates\\Program.cs",
               "RelativeToolTip": "Delegates\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T02:03:23.388Z",
               "EditorCaption": ""
