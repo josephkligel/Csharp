@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jklig\\Documents\\Csharp\\TypeContraints\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31033DED-CE05-40F1-953E-E3147B63451A}|TypeContraints\\TypeContraints.csproj|c:\\users\\jklig\\documents\\csharp\\typecontraints\\typecontraints\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31033DED-CE05-40F1-953E-E3147B63451A}|TypeContraints\\TypeContraints.csproj|solutionrelative:typecontraints\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jklig\\Documents\\Csharp\\TypeContraints\\TypeContraints\\Program.cs",
+              "RelativeDocumentMoniker": "TypeContraints\\Program.cs",
+              "ToolTip": "C:\\Users\\jklig\\Documents\\Csharp\\TypeContraints\\TypeContraints\\Program.cs*",
+              "RelativeToolTip": "TypeContraints\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T00:25:24.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
