@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jklig\\Documents\\Csharp\\StrategyDesignPattern\\",
+  "WorkspaceRootPath": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\StrategyDesignPattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BE5A6D4-90FC-4079-B1BD-4FF74A37BFF1}|StrategyDesignPattern\\StrategyDesignPattern.csproj|c:\\users\\jklig\\documents\\csharp\\strategydesignpattern\\strategydesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BE5A6D4-90FC-4079-B1BD-4FF74A37BFF1}|StrategyDesignPattern\\StrategyDesignPattern.csproj|c:\\users\\c0021\\onedrive\\documents\\github\\csharp\\strategydesignpattern\\strategydesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BE5A6D4-90FC-4079-B1BD-4FF74A37BFF1}|StrategyDesignPattern\\StrategyDesignPattern.csproj|solutionrelative:strategydesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jklig\\Documents\\Csharp\\StrategyDesignPattern\\StrategyDesignPattern\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\StrategyDesignPattern\\StrategyDesignPattern\\Program.cs",
               "RelativeDocumentMoniker": "StrategyDesignPattern\\Program.cs",
-              "ToolTip": "C:\\Users\\jklig\\Documents\\Csharp\\StrategyDesignPattern\\StrategyDesignPattern\\Program.cs",
+              "ToolTip": "C:\\Users\\c0021\\OneDrive\\Documents\\GitHub\\Csharp\\StrategyDesignPattern\\StrategyDesignPattern\\Program.cs",
               "RelativeToolTip": "StrategyDesignPattern\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T02:08:15.459Z",
+              "WhenOpened": "2025-02-10T01:50:27.419Z",
               "EditorCaption": ""
             }
           ]

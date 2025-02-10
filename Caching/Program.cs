@@ -1,0 +1,16 @@
+﻿var dataDownloader = new SlowDataDownloader();
+
+Console.WriteLine(dataDownloader.DownloadData("id1"));
+Console.WriteLine(dataDownloader.DownloadData("id2"));
+Console.WriteLine(dataDownloader.DownloadData("id3"));
+Console.WriteLine(dataDownloader.DownloadData("id1"));
+Console.WriteLine(dataDownloader.DownloadData("id3"));
+Console.WriteLine(dataDownloader.DownloadData("id1"));
+Console.WriteLine(dataDownloader.DownloadData("id2"));
+
+Console.ReadKey();
+
+public interface IDataDownloader
+{
+	string DownloadData(string resourceId);
+}

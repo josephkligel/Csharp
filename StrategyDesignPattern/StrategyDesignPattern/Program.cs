@@ -1,19 +1,26 @@
 ﻿using System.Globalization;
 
 var numbers = new List<int> { 10, 12, -100, 55, 17, 22 };
+var filteringStrategySelector = new FilteringStrategySelector();
 
-Console.WriteLine(@"
-Even
-Odd
-Positive");
+Console.WriteLine("Select filter:");
+Console.WriteLine(
+    string.Join(
+        Environment.NewLine,
+        filteringStrategySelector.FilteringStrategiesNames));
 
 var userInput = Console.ReadLine();
 
 var filteringStrategy = new FilteringStrategySelector().Select(userInput);
-List<int> result = new NumberFilter().FilterBy(filteringStrategy, numbers);
+var result = new Filter().FilterBy(filteringStrategy, numbers);
 
 
 Print(result);
+
+var words = new[] { "zebra", "ostrich", "otter" };
+var oWords = new Filter().FilterBy(
+    word => word.StartsWith("o"),
+    words);
 
 Console.ReadKey();
 
@@ -27,9 +34,14 @@ public class FilteringStrategySelector
     private readonly Dictionary<string, Func<int, bool>> _filteringStrategies = new()
     {
         ["Even"] = number => number % 2 == 0,
-        ["Odd"] = number => number % 1 == 0,
-        ["Postive"] = number => number > 0,
+        ["Odd"] = number => number % 2 == 1,
+        ["Positive"] = number => number > 0,
+        ["Negative"] = number => number < 0
     };
+
+    public IEnumerable<string> FilteringStrategiesNames =>
+        _filteringStrategies.Keys;
+
     public Func<int, bool> Select(string filteringType)
     {
         if (!_filteringStrategies.ContainsKey(filteringType))
@@ -44,12 +56,14 @@ public class FilteringStrategySelector
     }
 }
 
-public class NumberFilter
+public class Filter
 {
     
-    public List<int> FilterBy(Func<int, bool> predicate, List<int> numbers)
+    public IEnumerable<T> FilterBy<T>(
+        Func<T, bool> predicate, 
+        IEnumerable<T> numbers)
     {
-        var result = new List<int>();
+        var result = new List<T>();
 
         foreach (var number in numbers)
         {
