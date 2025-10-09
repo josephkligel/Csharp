@@ -1,8 +1,11 @@
-﻿
+﻿var point1 = new Point(1, 5);
+var point2 = new Point(1, 5);
 
-using System.Diagnostics.CodeAnalysis;
+Console.WriteLine("point1 == point2" + (point1 == point2));
 
-internal readonly struct Point
+Console.WriteLine("1 == 1" + (1 == 1s));
+
+internal readonly struct Point: IEquatable<Point>
 {
     public int X { get; init; }
     public int Y { get; init; }
@@ -12,11 +15,16 @@ internal readonly struct Point
         Y = y;
     }
 
+    public bool Equals([AllowNull] Point other)
+    {
+        return X == other.X &&
+            Y == other.Y;
+    }
+
     public override bool Equals(object? obj)
     {
         return obj is Point point &&
-            X == point.X &&
-            Y == point.Y;
+            Equals(point);
     }
 
     public override int GetHashCode()
@@ -32,22 +40,4 @@ internal readonly struct Point
     //        X == other.X &&
     //        Y == other.Y;
     //}
-}
-
-class Person
-{
-    public int Id { get; init; }
-    public string Name { get; init; }
-
-    public Person(int id, string name)
-    {
-        Id = id;
-        Name = name;
-    }
-
-    public override bool Equals(object? obj)
-    {
-        return obj is Person person &&
-            Id == person.Id;
-    }
 }

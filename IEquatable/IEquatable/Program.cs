@@ -1,8 +1,5 @@
 ﻿
-
-using System.Diagnostics.CodeAnalysis;
-
-internal readonly struct Point
+internal readonly struct Point: IEquatable<Point>
 {
     public int X { get; init; }
     public int Y { get; init; }
@@ -12,11 +9,15 @@ internal readonly struct Point
         Y = y;
     }
 
+    public bool Equals(Point other)
+    {
+        return X == other.X &&
+            Y == other.Y;
+    }
     public override bool Equals(object? obj)
     {
         return obj is Point point &&
-            X == point.X &&
-            Y == point.Y;
+            Equals(point);
     }
 
     public override int GetHashCode()
@@ -32,22 +33,4 @@ internal readonly struct Point
     //        X == other.X &&
     //        Y == other.Y;
     //}
-}
-
-class Person
-{
-    public int Id { get; init; }
-    public string Name { get; init; }
-
-    public Person(int id, string name)
-    {
-        Id = id;
-        Name = name;
-    }
-
-    public override bool Equals(object? obj)
-    {
-        return obj is Person person &&
-            Id == person.Id;
-    }
 }
